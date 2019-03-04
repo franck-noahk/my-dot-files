@@ -20,14 +20,16 @@
 $
 
 # Command Line History (newest to oldest):
-:q
-|2,0,1547865767,,"q"
-:wq
-|2,0,1547865674,,"wq"
-:w
-|2,0,1547862660,,"w"
 :q!
-|2,0,1547855012,,"q!"
+|2,0,1551319797,,"q!"
+:q
+|2,0,1551319656,,"q"
+:wq
+|2,0,1551319593,,"wq"
+:w
+|2,0,1551293051,,"w"
+:help tutor
+|2,0,1550645164,,"help tutor"
 :%s//new/g
 |2,0,1547854885,,"%s//new/g"
 :<T>/%s//
@@ -80,265 +82,369 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-""0	CHAR	0
+"0	CHAR	0
 	 
-|3,1,0,0,1,0,1547862946," "
-"1	LINE	0
-			Return("Hello, World!");
-|3,0,1,1,1,0,1547862349,"		Return(\"Hello, World!\");"
+|3,0,0,0,1,0,1547862946," "
+""1	LINE	0
+	exec i3-config-wizard
+|3,1,1,1,1,0,1551319791,"exec i3-config-wizard"
 "2	LINE	0
-	    String getGreeting() {
-|3,0,2,1,1,0,1547861887,"    String getGreeting() {"
+	# i3 config file (v4)
+	#
+|3,0,2,1,2,0,1551319642,"# i3 config file (v4)","#"
 "3	LINE	0
-	    }
-|3,0,3,1,1,0,1547861886,"    }"
+	feh --big-scale ~/Pictures/sudoBlue.jpg
+|3,0,3,1,1,0,1551319581,"feh --big-scale ~/Pictures/sudoBlue.jpg"
 "4	LINE	0
-	        throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
-|3,0,4,1,1,0,1547861885,"        throw new UnsupportedOperationException(\"Delete this statement and write your own implementation.\");"
+	# To get a config file with the same key positions, but for your current
+|3,0,4,1,1,0,1551201510,"# To get a config file with the same key positions, but for your current"
 "5	LINE	0
-	}
-|3,0,5,1,1,0,1547779010,"}"
+	#
+|3,0,5,1,1,0,1551201509,"#"
 "6	LINE	0
-	}
-|3,0,6,1,1,0,1547778966,"}"
+	# layout.
+|3,0,6,1,1,0,1551201508,"# layout."
 "7	LINE	0
-	int ddsum(int a, int b) 
-|3,0,7,1,1,0,1547778962,"int ddsum(int a, int b) "
+	# This config file uses keycodes (bindsym) and was written for the QWERTY
+|3,0,7,1,1,0,1551201508,"# This config file uses keycodes (bindsym) and was written for the QWERTY"
 "8	LINE	0
-		var sum int = x + y
-|3,0,8,1,1,0,1547701443,"	var sum int = x + y"
+	#
+|3,0,8,1,1,0,1551201508,"#"
 "9	LINE	0
-	ab #inc #include 
-|3,0,9,1,1,0,1547613198,"ab #inc #include "
+	# Please see https://i3wm.org/docs/userguide.html for a complete reference!
+|3,0,9,1,1,0,1551201507,"# Please see https://i3wm.org/docs/userguide.html for a complete reference!"
 "-	CHAR	0
-	 
-|3,0,36,0,1,0,1547862701," "
+	o
+|3,0,36,0,1,0,1550645433,"o"
 
 # File marks:
-'0  1  36  /etc/environment
-|4,48,1,36,1547865767,"/etc/environment"
-'1  1  95  /etc/environment
-|4,49,1,95,1547865674,"/etc/environment"
-'2  1  109  /etc/environment
-|4,50,1,109,1547865514,"/etc/environment"
-'3  1  109  /etc/environment
-|4,51,1,109,1547865514,"/etc/environment"
-'4  1  0  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,52,1,0,1547864224,"~/exercism/java/hello-world/src/main/java/Greeter.java"
-'5  4  1  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,53,4,1,1547863445,"~/exercism/java/hello-world/src/main/java/Greeter.java"
-'6  4  1  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,54,4,1,1547863445,"~/exercism/java/hello-world/src/main/java/Greeter.java"
-'7  10  33  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,55,10,33,1547863378,"~/exercism/java/hello-world/src/main/java/Greeter.java"
-'8  10  33  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,56,10,33,1547863378,"~/exercism/java/hello-world/src/main/java/Greeter.java"
-'9  10  33  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,57,10,33,1547863378,"~/exercism/java/hello-world/src/main/java/Greeter.java"
+'0  178  0  ~/.i3/config
+|4,48,178,0,1551319797,"~/.i3/config"
+'1  2  0  ~/.i3/config
+|4,49,2,0,1551319658,"~/.i3/config"
+'2  2  0  ~/.i3/config
+|4,50,2,0,1551319658,"~/.i3/config"
+'3  120  0  ~/.bashrc
+|4,51,120,0,1551319593,"~/.bashrc"
+'4  120  38  ~/.bashrc
+|4,52,120,38,1551319351,"~/.bashrc"
+'5  30  2  ~/Documents/Architecture/ch2 architechture from
+|4,53,30,2,1551293387,"~/Documents/Architecture/ch2 architechture from"
+'6  1  0  ~/.gitconfig
+|4,54,1,0,1551293100,"~/.gitconfig"
+'7  165  30  ~/.i3/config
+|4,55,165,30,1551201667,"~/.i3/config"
+'8  167  30  ~/.i3/config
+|4,56,167,30,1551201667,"~/.i3/config"
+'9  165  30  ~/.i3/config
+|4,57,165,30,1551201667,"~/.i3/config"
 
 # Jumplist (newest first):
--'  1  36  /etc/environment
-|4,39,1,36,1547865767,"/etc/environment"
--'  1  95  /etc/environment
-|4,39,1,95,1547865674,"/etc/environment"
--'  1  109  /etc/environment
-|4,39,1,109,1547865514,"/etc/environment"
--'  1  0  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,1,0,1547864224,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  1  0  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,1,0,1547864224,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  1  0  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,1,0,1547864224,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  1  0  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,1,0,1547864224,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  1  0  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,1,0,1547864224,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  1  0  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,1,0,1547864224,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  1  0  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,1,0,1547864224,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  1  0  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,1,0,1547864224,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  4  1  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,4,1,1547863445,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  4  1  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,4,1,1547863445,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  4  1  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,4,1,1547863445,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  4  1  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,4,1,1547863445,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  4  1  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,4,1,1547863445,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  4  1  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,4,1,1547863445,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  4  1  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,4,1,1547863445,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  4  1  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,4,1,1547863445,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  4  1  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,4,1,1547863445,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  4  1  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,4,1,1547863445,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  4  1  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,4,1,1547863445,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  4  1  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,4,1,1547863445,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  4  1  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,4,1,1547863445,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  4  1  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,4,1,1547863445,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  4  1  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,4,1,1547863445,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  4  1  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,4,1,1547863445,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  1  0  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,1,0,1547863401,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  1  0  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,1,0,1547863401,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  1  0  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,1,0,1547863401,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  1  0  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,1,0,1547863401,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  1  0  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,1,0,1547863401,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  1  0  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,1,0,1547863401,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  1  0  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,1,0,1547863401,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  1  0  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,1,0,1547863401,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  10  33  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,10,33,1547863378,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  10  33  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,10,33,1547863378,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  10  33  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,10,33,1547863378,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  10  33  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,10,33,1547863378,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  10  33  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,10,33,1547863378,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  10  33  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,10,33,1547863378,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  10  33  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,10,33,1547863378,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  10  33  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,10,33,1547863378,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  10  33  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,10,33,1547863378,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  10  33  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,10,33,1547863378,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  10  33  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,10,33,1547863378,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  10  33  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,10,33,1547863378,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  10  33  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,10,33,1547863378,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  10  33  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,10,33,1547863378,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  10  33  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,10,33,1547863378,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  10  33  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,10,33,1547863378,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  10  33  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,10,33,1547863378,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  10  33  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,10,33,1547863378,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  10  33  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,10,33,1547863378,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  10  33  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,10,33,1547863378,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  10  33  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,10,33,1547863378,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  10  33  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,10,33,1547863378,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  10  33  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,10,33,1547863378,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  10  33  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,10,33,1547863378,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  1  0  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,1,0,1547863291,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  1  0  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,1,0,1547863291,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  1  0  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,1,0,1547863291,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  1  0  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,1,0,1547863291,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  1  0  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,1,0,1547863291,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  1  0  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,1,0,1547863291,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  1  0  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,1,0,1547863291,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  1  0  ~/exercism/java/hello-world/src/main/java/Greeter.java
-|4,39,1,0,1547863291,"~/exercism/java/hello-world/src/main/java/Greeter.java"
--'  1  0  /src/main/java/Greeter.java
-|4,39,1,0,1547863269,"/src/main/java/Greeter.java"
--'  1  0  /src/main/java/Greeter.java
-|4,39,1,0,1547863269,"/src/main/java/Greeter.java"
--'  1  0  /src/main/java/Greeter.java
-|4,39,1,0,1547863269,"/src/main/java/Greeter.java"
--'  1  0  /src/main/java/Greeter.java
-|4,39,1,0,1547863269,"/src/main/java/Greeter.java"
--'  1  0  /src/main/java/Greeter.java
-|4,39,1,0,1547863269,"/src/main/java/Greeter.java"
--'  1  0  /src/main/java/Greeter.java
-|4,39,1,0,1547863269,"/src/main/java/Greeter.java"
--'  1  0  /src/main/java/Greeter.java
-|4,39,1,0,1547863269,"/src/main/java/Greeter.java"
--'  1  0  /src/main/java/Greeter.java
-|4,39,1,0,1547863269,"/src/main/java/Greeter.java"
--'  1  0  /src/main/java/Greeter.java
-|4,39,1,0,1547863269,"/src/main/java/Greeter.java"
--'  1  0  /src/main/java/Greeter.java
-|4,39,1,0,1547863269,"/src/main/java/Greeter.java"
--'  1  0  /src/main/java/Greeter.java
-|4,39,1,0,1547863269,"/src/main/java/Greeter.java"
--'  1  0  /src/main/java/Greeter.java
-|4,39,1,0,1547863269,"/src/main/java/Greeter.java"
--'  1  0  /src/main/java/Greeter.java
-|4,39,1,0,1547863269,"/src/main/java/Greeter.java"
--'  1  0  /src/main/java/Greeter.java
-|4,39,1,0,1547863269,"/src/main/java/Greeter.java"
--'  1  0  /src/main/java/Greeter.java
-|4,39,1,0,1547863269,"/src/main/java/Greeter.java"
--'  1  0  /src/main/java/Greeter.java
-|4,39,1,0,1547863269,"/src/main/java/Greeter.java"
--'  1  0  /src/main/java/Greeter.java
-|4,39,1,0,1547863269,"/src/main/java/Greeter.java"
--'  1  0  /src/main/java/Greeter.java
-|4,39,1,0,1547863269,"/src/main/java/Greeter.java"
--'  1  0  /src/main/java/Greeter.java
-|4,39,1,0,1547863269,"/src/main/java/Greeter.java"
--'  1  0  /src/main/java/Greeter.java
-|4,39,1,0,1547863269,"/src/main/java/Greeter.java"
--'  1  0  /src/main/java/Greeter.java
-|4,39,1,0,1547863269,"/src/main/java/Greeter.java"
--'  1  0  /src/main/java/Greeter.java
-|4,39,1,0,1547863269,"/src/main/java/Greeter.java"
--'  1  0  /src/main/java/Greeter.java
-|4,39,1,0,1547863269,"/src/main/java/Greeter.java"
--'  1  0  /src/main/java/Greeter.java
-|4,39,1,0,1547863269,"/src/main/java/Greeter.java"
--'  1  0  /src/main/java/Greeter.java
-|4,39,1,0,1547863269,"/src/main/java/Greeter.java"
--'  1  0  /src/main/java/Greeter.java
-|4,39,1,0,1547863269,"/src/main/java/Greeter.java"
--'  1  0  /src/main/java/Greeter.java
-|4,39,1,0,1547863269,"/src/main/java/Greeter.java"
--'  1  0  /src/main/java/Greeter.java
-|4,39,1,0,1547863269,"/src/main/java/Greeter.java"
--'  1  0  /src/main/java/Greeter.java
-|4,39,1,0,1547863269,"/src/main/java/Greeter.java"
--'  1  0  /src/main/java/Greeter.java
-|4,39,1,0,1547863269,"/src/main/java/Greeter.java"
--'  1  0  /src/main/java/Greeter.java
-|4,39,1,0,1547863269,"/src/main/java/Greeter.java"
--'  1  0  /src/main/java/Greeter.java
-|4,39,1,0,1547863269,"/src/main/java/Greeter.java"
--'  1  0  /src/main/java/Greeter.java
-|4,39,1,0,1547863269,"/src/main/java/Greeter.java"
+-'  178  0  ~/.i3/config
+|4,39,178,0,1551319797,"~/.i3/config"
+-'  1  0  ~/.i3/config
+|4,39,1,0,1551319662,"~/.i3/config"
+-'  2  0  ~/.i3/config
+|4,39,2,0,1551319658,"~/.i3/config"
+-'  2  0  ~/.i3/config
+|4,39,2,0,1551319658,"~/.i3/config"
+-'  1  0  ~/.i3/config
+|4,39,1,0,1551319639,"~/.i3/config"
+-'  120  0  ~/.bashrc
+|4,39,120,0,1551319593,"~/.bashrc"
+-'  120  0  ~/.bashrc
+|4,39,120,0,1551319593,"~/.bashrc"
+-'  120  0  ~/.bashrc
+|4,39,120,0,1551319593,"~/.bashrc"
+-'  120  0  ~/.bashrc
+|4,39,120,0,1551319593,"~/.bashrc"
+-'  121  0  ~/.bashrc
+|4,39,121,0,1551319578,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1551319578,"~/.bashrc"
+-'  121  0  ~/.bashrc
+|4,39,121,0,1551319578,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1551319578,"~/.bashrc"
+-'  121  0  ~/.bashrc
+|4,39,121,0,1551319578,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1551319578,"~/.bashrc"
+-'  121  0  ~/.bashrc
+|4,39,121,0,1551319578,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1551319578,"~/.bashrc"
+-'  120  38  ~/.bashrc
+|4,39,120,38,1551319351,"~/.bashrc"
+-'  120  38  ~/.bashrc
+|4,39,120,38,1551319351,"~/.bashrc"
+-'  120  38  ~/.bashrc
+|4,39,120,38,1551319351,"~/.bashrc"
+-'  120  38  ~/.bashrc
+|4,39,120,38,1551319351,"~/.bashrc"
+-'  117  0  ~/.bashrc
+|4,39,117,0,1551319310,"~/.bashrc"
+-'  67  2  ~/.bashrc
+|4,39,67,2,1551319310,"~/.bashrc"
+-'  117  0  ~/.bashrc
+|4,39,117,0,1551319310,"~/.bashrc"
+-'  67  2  ~/.bashrc
+|4,39,67,2,1551319310,"~/.bashrc"
+-'  117  0  ~/.bashrc
+|4,39,117,0,1551319310,"~/.bashrc"
+-'  67  2  ~/.bashrc
+|4,39,67,2,1551319310,"~/.bashrc"
+-'  117  0  ~/.bashrc
+|4,39,117,0,1551319310,"~/.bashrc"
+-'  67  2  ~/.bashrc
+|4,39,67,2,1551319310,"~/.bashrc"
+-'  117  0  ~/.bashrc
+|4,39,117,0,1551319310,"~/.bashrc"
+-'  67  2  ~/.bashrc
+|4,39,67,2,1551319310,"~/.bashrc"
+-'  117  0  ~/.bashrc
+|4,39,117,0,1551319310,"~/.bashrc"
+-'  67  2  ~/.bashrc
+|4,39,67,2,1551319310,"~/.bashrc"
+-'  117  0  ~/.bashrc
+|4,39,117,0,1551319310,"~/.bashrc"
+-'  67  2  ~/.bashrc
+|4,39,67,2,1551319310,"~/.bashrc"
+-'  117  0  ~/.bashrc
+|4,39,117,0,1551319310,"~/.bashrc"
+-'  67  2  ~/.bashrc
+|4,39,67,2,1551319310,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1551319276,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1551319276,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1551319276,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1551319276,"~/.bashrc"
+-'  30  2  ~/Documents/Architecture/ch2 architechture from
+|4,39,30,2,1551293387,"~/Documents/Architecture/ch2 architechture from"
+-'  30  2  ~/Documents/Architecture/ch2 architechture from
+|4,39,30,2,1551293387,"~/Documents/Architecture/ch2 architechture from"
+-'  30  2  ~/Documents/Architecture/ch2 architechture from
+|4,39,30,2,1551293387,"~/Documents/Architecture/ch2 architechture from"
+-'  30  2  ~/Documents/Architecture/ch2 architechture from
+|4,39,30,2,1551293387,"~/Documents/Architecture/ch2 architechture from"
+-'  30  2  ~/Documents/Architecture/ch2 architechture from
+|4,39,30,2,1551293387,"~/Documents/Architecture/ch2 architechture from"
+-'  30  2  ~/Documents/Architecture/ch2 architechture from
+|4,39,30,2,1551293387,"~/Documents/Architecture/ch2 architechture from"
+-'  30  2  ~/Documents/Architecture/ch2 architechture from
+|4,39,30,2,1551293387,"~/Documents/Architecture/ch2 architechture from"
+-'  30  2  ~/Documents/Architecture/ch2 architechture from
+|4,39,30,2,1551293387,"~/Documents/Architecture/ch2 architechture from"
+-'  30  2  ~/Documents/Architecture/ch2 architechture from
+|4,39,30,2,1551293387,"~/Documents/Architecture/ch2 architechture from"
+-'  30  2  ~/Documents/Architecture/ch2 architechture from
+|4,39,30,2,1551293387,"~/Documents/Architecture/ch2 architechture from"
+-'  30  2  ~/Documents/Architecture/ch2 architechture from
+|4,39,30,2,1551293387,"~/Documents/Architecture/ch2 architechture from"
+-'  30  2  ~/Documents/Architecture/ch2 architechture from
+|4,39,30,2,1551293387,"~/Documents/Architecture/ch2 architechture from"
+-'  30  2  ~/Documents/Architecture/ch2 architechture from
+|4,39,30,2,1551293387,"~/Documents/Architecture/ch2 architechture from"
+-'  30  2  ~/Documents/Architecture/ch2 architechture from
+|4,39,30,2,1551293387,"~/Documents/Architecture/ch2 architechture from"
+-'  30  2  ~/Documents/Architecture/ch2 architechture from
+|4,39,30,2,1551293387,"~/Documents/Architecture/ch2 architechture from"
+-'  30  2  ~/Documents/Architecture/ch2 architechture from
+|4,39,30,2,1551293387,"~/Documents/Architecture/ch2 architechture from"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1551293100,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1551293100,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1551293100,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1551293100,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1551293100,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1551293100,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1551293100,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1551293100,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1551293100,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1551293100,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1551293100,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1551293100,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1551293100,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1551293100,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1551293100,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1551293100,"~/.gitconfig"
+-'  18  7  ~/Documents/Architecture/ch2 architechture from
+|4,39,18,7,1551291720,"~/Documents/Architecture/ch2 architechture from"
+-'  13  0  ~/Documents/Architecture/ch2 architechture from
+|4,39,13,0,1551291720,"~/Documents/Architecture/ch2 architechture from"
+-'  18  7  ~/Documents/Architecture/ch2 architechture from
+|4,39,18,7,1551291720,"~/Documents/Architecture/ch2 architechture from"
+-'  13  0  ~/Documents/Architecture/ch2 architechture from
+|4,39,13,0,1551291720,"~/Documents/Architecture/ch2 architechture from"
+-'  18  7  ~/Documents/Architecture/ch2 architechture from
+|4,39,18,7,1551291720,"~/Documents/Architecture/ch2 architechture from"
+-'  13  0  ~/Documents/Architecture/ch2 architechture from
+|4,39,13,0,1551291720,"~/Documents/Architecture/ch2 architechture from"
+-'  18  7  ~/Documents/Architecture/ch2 architechture from
+|4,39,18,7,1551291720,"~/Documents/Architecture/ch2 architechture from"
+-'  13  0  ~/Documents/Architecture/ch2 architechture from
+|4,39,13,0,1551291720,"~/Documents/Architecture/ch2 architechture from"
+-'  18  7  ~/Documents/Architecture/ch2 architechture from
+|4,39,18,7,1551291720,"~/Documents/Architecture/ch2 architechture from"
+-'  13  0  ~/Documents/Architecture/ch2 architechture from
+|4,39,13,0,1551291720,"~/Documents/Architecture/ch2 architechture from"
+-'  18  7  ~/Documents/Architecture/ch2 architechture from
+|4,39,18,7,1551291720,"~/Documents/Architecture/ch2 architechture from"
+-'  13  0  ~/Documents/Architecture/ch2 architechture from
+|4,39,13,0,1551291720,"~/Documents/Architecture/ch2 architechture from"
+-'  18  7  ~/Documents/Architecture/ch2 architechture from
+|4,39,18,7,1551291720,"~/Documents/Architecture/ch2 architechture from"
+-'  13  0  ~/Documents/Architecture/ch2 architechture from
+|4,39,13,0,1551291720,"~/Documents/Architecture/ch2 architechture from"
+-'  18  7  ~/Documents/Architecture/ch2 architechture from
+|4,39,18,7,1551291720,"~/Documents/Architecture/ch2 architechture from"
+-'  13  0  ~/Documents/Architecture/ch2 architechture from
+|4,39,13,0,1551291720,"~/Documents/Architecture/ch2 architechture from"
+-'  18  7  ~/Documents/Architecture/ch2 architechture from
+|4,39,18,7,1551291720,"~/Documents/Architecture/ch2 architechture from"
+-'  13  0  ~/Documents/Architecture/ch2 architechture from
+|4,39,13,0,1551291720,"~/Documents/Architecture/ch2 architechture from"
+-'  18  7  ~/Documents/Architecture/ch2 architechture from
+|4,39,18,7,1551291720,"~/Documents/Architecture/ch2 architechture from"
+-'  13  0  ~/Documents/Architecture/ch2 architechture from
+|4,39,13,0,1551291720,"~/Documents/Architecture/ch2 architechture from"
+-'  18  7  ~/Documents/Architecture/ch2 architechture from
+|4,39,18,7,1551291720,"~/Documents/Architecture/ch2 architechture from"
+-'  13  0  ~/Documents/Architecture/ch2 architechture from
+|4,39,13,0,1551291720,"~/Documents/Architecture/ch2 architechture from"
+-'  18  7  ~/Documents/Architecture/ch2 architechture from
+|4,39,18,7,1551291720,"~/Documents/Architecture/ch2 architechture from"
+-'  13  0  ~/Documents/Architecture/ch2 architechture from
+|4,39,13,0,1551291720,"~/Documents/Architecture/ch2 architechture from"
+-'  18  7  ~/Documents/Architecture/ch2 architechture from
+|4,39,18,7,1551291720,"~/Documents/Architecture/ch2 architechture from"
+-'  13  0  ~/Documents/Architecture/ch2 architechture from
+|4,39,13,0,1551291720,"~/Documents/Architecture/ch2 architechture from"
+-'  18  7  ~/Documents/Architecture/ch2 architechture from
+|4,39,18,7,1551291720,"~/Documents/Architecture/ch2 architechture from"
 
 # History of marks within files (newest to oldest):
+
+> ~/.i3/config
+	*	1551319795	0
+	"	178	0
+	^	1	0
+	.	179	0
+	+	1	0
+	+	179	0
+
+> ~/.bashrc
+	*	1551319591	0
+	"	120	0
+	.	120	0
+	+	120	0
+
+> ~/.gitconfig
+	*	1551293097	0
+	"	1	0
+
+> ~/Documents/Architecture/ch2 architechture from
+	*	1551293051	0
+	"	30	2
+	^	30	3
+	.	30	2
+	+	8	0
+	+	7	113
+	+	6	28
+	+	14	0
+	+	12	62
+	+	13	63
+	+	14	15
+	+	18	6
+	+	18	34
+	+	17	35
+	+	19	0
+	+	36	0
+	+	23	0
+	+	24	9
+	+	28	75
+	+	30	2
+
+> /etc/i3/config.keycodes
+	*	1551201212	0
+	"	5	1
+
+> /etc/i3/config
+	*	1551201193	0
+	"	179	0
+
+> ~/Documents/Networking General Things/NetworkingNotes.txt
+	*	1551198572	0
+	"	36	72
+	^	36	73
+	.	36	72
+	+	22	0
+	+	2	0
+	+	18	24
+	+	14	5
+	+	13	20
+	+	21	20
+	+	20	15
+	+	27	0
+	+	29	43
+	+	30	26
+	+	31	30
+	+	39	8
+	+	39	9
+	+	39	2
+	+	34	42
+	+	36	20
+	+	34	22
+	+	36	72
+
+> ~/Documents/WIP/python-pi/.git/config
+	*	1550646245	0
+	"	1	0
+
+> /tmp/tutormfyxxJ
+	*	1550645636	0
+	"	261	0
+	.	202	0
+	+	74	14
+	+	85	31
+	+	109	18
+	+	132	46
+	+	134	41
+	+	202	0
+
+> ~/Documents/WIP/tutor
+	*	1550645198	0
+	"	1	0
+
+> /usr/share/vim/vim80/doc/usr_01.txt
+	*	1550645195	0
+	"	129	26
+
+> ~/Documents/WIP/tutur
+	*	1550645115	0
+	"	1	0
+
+> ~/Documents/WIP/Tutor
+	*	1550645110	0
+	"	1	0
 
 > /etc/environment
 	*	1547865763	0
