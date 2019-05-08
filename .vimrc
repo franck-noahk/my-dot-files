@@ -1,16 +1,16 @@
-
-
 "Turning on syntax for vim
 syntax on
 set autoindent
-set nowrap
-
+"set nowrap
+set scrolloff=200
 "turning on numbers and relative nubmers at the same time
 set nu!
 set rnu!
-
+set wrap
+set linebreak
+set nolist  " list disables linebreak
 "my default color schemea
-:colorscheme badwolf
+colorscheme elflord 		"slate  elflord"
 "setting up vim to work with python
 set t_co=78
 set tabstop=4
@@ -45,7 +45,7 @@ call plug#begin('~/vim-addons')
 Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'w0rp/ale'
-"Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'vim-syntastic/syntastic'
 
 call plug#end() 
