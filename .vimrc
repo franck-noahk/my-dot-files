@@ -4,8 +4,8 @@ set autoindent
 set nowrap
 set scrolloff=200
 "turning on numbers and relative nubmers at the same time
-set nu!
-set rnu!
+set nu
+set rnu
 set wrap
 set linebreak
 set nolist  " list disables linebreak
@@ -35,11 +35,7 @@ set smartindent
 	"		ab assembleH .globval main<CR>.data<CR><CR><CR>.align
 	"		2<CR>.text<CR>main:<CR><CR><CR>end:<CR>mov r7,
 	"		#1<CR>swi 0<UP><UP><UP><UP>
-	"
-"auto completes my cases to make sure that every opener has a closer
-ab ( (  )<esc>2hi
-ab [ [  ]<esc>2hi
-ab { {<CR><CR><CR>}<UP><UP><TAB>
+	" "auto completes my cases to make sure that every opener has a closer
 	"
 	"				"Auto complete for the html code
 	"				ab <body>
@@ -54,7 +50,7 @@ ab { {<CR><CR><CR>}<UP><UP><TAB>
 "			Vundle installer  by default
 "----------------------------------------------------
 set nocompatible              " be iMproved, required
-filetype off                  " required
+filetype plugin on                  " required
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -92,7 +88,7 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
-filetype plugin indent on    " required
+"filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
 "
@@ -109,9 +105,13 @@ filetype plugin indent on    " required
 "				Configuration for vim plugins
 "----------------------------------------------------------------
 au FileType c,cpp,objc,objcpp,dart,js,go, call rainbow#load()
+"let g:vimwiki_folding = 'syntax'
+au BufNewFile ~/vimwiki/diary/*.wiki :silent 0r !~/.vim/bin/vimwiki-template '%'
 nmap <F5> :TODOToggle<CR>
+nmap <F6> :VimwikiDiaryGenerateLinks<CR>
 set laststatus=2
 set noshowmode
+
 let g:lightline = {
 						\ 'colorscheme': 'wombat',
 						\ 'active': {
